@@ -40,3 +40,36 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+header {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+blockquote {
+    font-size: 1.2em;
+    color: #888;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px;
+    border-left: 5px solid #ccc;
+    border-right: 5px solid #ccc;
+
+    background-color: #f9f9f9;
+}
+
+blockquote small {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #555;
+}
